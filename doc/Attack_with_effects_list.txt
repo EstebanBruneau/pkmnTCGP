@@ -1,0 +1,307 @@
+Venusaur - Mega Drain: Heal 30 damage from this Pokémon.
+Venusaur ex - Giant Bloom: Heal 30 damage from this Pokémon.
+Caterpie - Find a: Put 1 random [G] Pokémon from your deck into your hand.
+Vileplume - Soothing Scent: Your opponent's Active Pokémon is now Asleep.
+Venomoth - Poison Powder: Your opponent's Active Pokémon is now Poisoned.
+Exeggutor - Stomp: Flip a coin. If heads, this attack does 30 more damage.
+Exeggutor ex - Tropical Swing: Flip a coin. If heads, this attack does 40 more damage.
+Tangela - Absorb: Heal 10 damage from this Pokémon.
+Pinsir - Double Horn: Flip 2 coins. This attack does 50 damage for each heads.
+Petilil - Blot: Heal 10 damage from this Pokémon.
+Lilligant - Leaf Supply: Take a [G] Energy from your Energy Zone and attach it to 1 of your Benched [G] Pokémon.
+Skiddo - Surprise Attack: Flip a coin. If tails, this attack does nothing.
+Charmander - Ember: Discard a [R] Energy from this Pokémon.
+Charizard - Fire Spin: Discard 2 [R] Energy from this Pokémon.
+Charizard ex - Crimson Storm: Discard 2 [R] Energy from this Pokémon.
+Vulpix - Tail: Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn.
+Ninetales - Flamethrower: Discard a [R] Energy from this Pokémon.
+Arcanine - Heat Tackle: This Pokémon also does 20 damage to itself.
+Arcanine ex - Inferno Onrush: This Pokémon also does 20 damage to itself.
+Flareon - Flamethrower: Discard 1 [R] Energy from this Pokémon.
+Moltres - Sky Attack: Flip a coin. If tails, this attack does nothing.
+Moltres ex - Inferno: Flip 3 coins. Take an amount of [R] Energy from your Energy Zone equal to the number of heads and attach it to your Benched [R] Pokémon in any way you like.
+Centiskorch - Fire Blast: Discard a [R] Energy from this Pokémon.
+Blastoise - Hydro Pump: If this Pokémon has at least 2 extra [W] Energy attached, this attack does 60 more damage.
+Blastoise ex - Hydro Bazooka: If this Pokémon has at least 2 extra [W] Energy attached, this attack does 60 more damage.
+Psyduck - Headache: Your opponent can't use any Supporter cards from their hand during their next turn. 
+Tentacruel - Poison Tentacles: Your opponent's Active Pokémon is now Poisoned.
+Kingler - KO Crab: Flip 2 coins. If both of them are heads, this attack does 80 more damage.
+Seadra - Water: This attack does 50 damage to 1 of your opponent's Pokémon.
+Seaking - Horn Hazard: Flip a coin. If tails, this attack does nothing.
+Gyarados - Hyper Beam: Discard a random Energy from your opponent's Active Pokémon.
+Lapras - Hydro Pump: If this Pokémon has at least 3 extra [W] Energy attached, this attack does 70 more damage.
+Vaporeon - Bubble Drain: Heal 30 damage from this Pokémon.
+Omastar - Ancient Whirlpool: During your opponent's next turn, the Defending Pokémon can't attack.      
+Articuno - Ice Beam: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+Articuno ex - Blizzard: This attack also does 10 damage to each of your opponent's Benched Pokémon.     
+Bruxish - Second Strike: If your opponent's Active Pokémon has damage on it, this attack does 60 more damage.
+Frosmoth - Powder Snow: Your opponent's Active Pokémon is now Asleep.
+Raichu - Thunderbolt: Discard all Energy from this Pokémon.
+Pikachu ex - Circle Circuit: This attack does 30 damage for each of your Benched [L] Pokémon.
+Electabuzz - Thunder Punch: Flip a coin. If heads, this attack does 40 more damage. If tails, this Pokémon also does 20 damage to itself.
+Jolteon - Pin Missile: Flip 4 coins. This attack does 40 damage for each heads.
+Zapdos - Raging Thunder: This attack also does 30 damage to 1 of your Benched Pokémon.
+Zapdos ex - Thundering Hurricane: Flip 4 coins. This attack does 50 damage for each heads.
+Zebstrika - Thunder: This attack does 30 damage to 1 of your opponent's Pokémon.
+Eelektross - Thunder Fang: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.      
+Heliolisk - Quick Attack: Flip a coin. If heads, this attack does 40 more damage.
+Pincurchin - Thunder Shock: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.     
+Abra - Unknown: Switch this Pokémon with 1 of your Benched Pokémon.
+Alakazam - Psychic: This attack does 30 more damage for each Energy attached to your opponent's Active Pokémon.
+Gengar - Bother: Your opponent can't use any Supporter cards from their hand during their next turn.    
+Mr. Mime - Barrier Attack: During your opponent's next turn, this Pokémon takes -20 damage from attacks.
+Jynx - Psychic: This attack does 20 more damage for each Energy attached to your opponent's Active Pokémon.
+Mewtwo - Power Blast: Discard 2 [P] Energy from this Pokémon.
+Mewtwo ex - Psydrive: Discard 2 [P] Energy from this Pokémon.
+Golurk - Double Lariat: Flip 2 coins. This attack does 100 damage for each heads.
+Dugtrio - Dig: Flip a coin. If heads, during your opponent's next turn, prevent all damage from—and effects of—attacks done to this Pokémon.
+Primeape - Fight Back: If this Pokémon has damage on it, this attack does 60 more damage.
+Golem - Double-Edge: This Pokémon also does 50 damage to itself.
+Cubone - Unknown: During your opponent's next turn, attacks used by the Defending Pokémon do -20 damage.
+Marowak ex - Bonemerang: Flip 2 coins. This attack does 80 damage for each heads.
+Hitmonlee - Stretch: This attack does 30 damage to 1 of your opponent's Benched Pokémon.
+Kabutops - Leech Life: Heal from this Pokémon the same amount of damage you did to your opponent's Active Pokémon.
+Grapploct - Knock Back: Switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)
+Arbok - Corner: During your opponent's next turn, the Defending Pokémon can't retreat.
+Nidoran♀ - Call for: Put 1 random Nidoran♂ from your deck onto your Bench.
+Nidoqueen - Lovestrike: This attack does 50 more damage for each of your Benched Nidoking.
+Nidoking - Poison Horn: Your opponent's Active Pokémon is now Poisoned.
+Grimer - Poison Gas: Your opponent's Active Pokémon is now Poisoned.
+Muk - Venoshock: If your opponent's Active Pokémon is Poisoned, this attack does 50 more damage.        
+Mawile - Crunch: Flip a coin. If heads, discard a random Energy from your opponent's Active Pokémon.    
+Meltan - Unknown: Take 1 [M] Energy from your Energy Zone and attach it to this Pokémon.
+Dragonite - Draco: 1 of your opponent's Pokémon is chosen at random 4 times. For each time a Pokémon was chosen, do 50 damage to it.
+Fearow - Drill Run: Flip a coin. If heads, discard a random Energy from your opponent's Active Pokémon. 
+Wigglytuff ex - Sleepy Song: Your opponent's Active Pokémon is now Asleep.
+Meowth - Pay Day: Draw 1 card.
+Persian - Shadow Claw: Flip a coin. If heads, discard a random card from your opponent's hand.
+Lickitung - Continuous Lick: Flip a coin until you get tails. This attack does 60 damage for each heads.
+Kangaskhan - Dizzy Punch: Flip 2 coins. This attack does 30 damage for each heads.
+Ditto - opy: Choose 1 of your opponent's Pokémon's attacks and use it as this attack. If this Pokémon doesn't have the necessary Energy to use that attack, this attack does nothing.
+Aerodactyl - Primal: Flip a coin. If heads, your opponent shuffles their Active Pokémon back into their deck.
+Cinccino - Do the Wave: This attack does 30 damage for each of your Benched Pokémon.
+Pinsir - Double Horn: Flip 2 coins. This attack does 50 damage for each heads.
+Charmander - Ember: Discard a [R] Energy from this Pokémon.
+Gyarados - Hyper Beam: Discard a random Energy from your opponent's Active Pokémon.
+Lapras - Hydro Pump: If this Pokémon has at least 3 extra [W] Energy attached, this attack does 70 more damage.
+Alakazam - Psychic: This attack does 30 more damage for each Energy attached to your opponent's Active Pokémon.
+Cubone - Unknown: During your opponent's next turn, attacks used by the Defending Pokémon do -20 damage.
+Nidoqueen - Lovestrike: This attack does 50 more damage for each of your Benched Nidoking.
+Nidoking - Poison Horn: Your opponent's Active Pokémon is now Poisoned.
+Dragonite - Draco: 1 of your opponent's Pokémon is chosen at random 4 times. For each time a Pokémon was chosen, do 50 damage to it.
+Meowth - Pay Day: Draw 1 card.
+Ditto - opy: Choose 1 of your opponent's Pokémon's attacks and use it as this attack. If this Pokémon doesn't have the necessary Energy to use that attack, this attack does nothing.
+Venusaur ex - Giant Bloom: Heal 30 damage from this Pokémon.
+Exeggutor ex - Tropical Swing: Flip a coin. If heads, this attack does 40 more damage.
+Charizard ex - Crimson Storm: Discard 2 [R] Energy from this Pokémon.
+Arcanine ex - Inferno Onrush: This Pokémon also does 20 damage to itself.
+Moltres ex - Inferno: Flip 3 coins. Take an amount of [R] Energy from your Energy Zone equal to the number of heads and attach it to your Benched [R] Pokémon in any way you like.
+Blastoise ex - Hydro Bazooka: If this Pokémon has at least 2 extra [W] Energy attached, this attack does 60 more damage.
+Articuno ex - Blizzard: This attack also does 10 damage to each of your opponent's Benched Pokémon.     
+Pikachu ex - Circle Circuit: This attack does 30 damage for each of your Benched [L] Pokémon.
+Zapdos ex - Thundering Hurricane: Flip 4 coins. This attack does 50 damage for each heads.
+Mewtwo ex - Psydrive: Discard 2 [P] Energy from this Pokémon.
+Marowak ex - Bonemerang: Flip 2 coins. This attack does 80 damage for each heads.
+Wigglytuff ex - Sleepy Song: Your opponent's Active Pokémon is now Asleep.
+Moltres ex - Inferno: Flip 3 coins. Take an amount of [R] Energy from your Energy Zone equal to the number of heads and attach it to your Benched [R] Pokémon in any way you like.
+Articuno ex - Blizzard: This attack also does 10 damage to each of your opponent's Benched Pokémon.     
+Zapdos ex - Thundering Hurricane: Flip 4 coins. This attack does 50 damage for each heads.
+Wigglytuff ex - Sleepy Song: Your opponent's Active Pokémon is now Asleep.
+Charizard ex - Crimson Storm: Discard 2 [R] Energy from this Pokémon.
+Pikachu ex - Circle Circuit: This attack does 30 damage for each of your Benched [L] Pokémon.
+Mewtwo ex - Psydrive: Discard 2 [P] Energy from this Pokémon.
+Mew - sy Report: Your opponent reveals their hand.  
+Charizard ex - Crimson Storm: Discard 2 [R] Energy from this Pokémon.
+Pikachu ex - Circle Circuit: This attack does 30 damage for each of your Benched [L] Pokémon.
+Mewtwo ex - Psydrive: Discard 2 [P] Energy from this Pokémon.
+Mewtwo - Power Blast: Discard 2 [P] Energy from this Pokémon.
+Meowth - Pay Day: Draw 1 card.
+Lapras ex - Bubble Drain: Heal 20 damage from this Pokémon.
+Mankey - Reckless Charge: This Pokémon also does 10 damage to itself.
+Venusaur - Mega Drain: Heal 30 damage from this Pokémon.
+Haunter - Surprise Attack: Flip a coin. If tails, this attack does nothing.
+Jigglypuff - Unknown: Your opponent's Active Pokémon is now Asleep.
+Moltres ex - Inferno: Flip 3 coins. Take an amount of [R] Energy from your Energy Zone equal to the number of heads and attach it to your Benched [R] Pokémon in any way you like.
+Volcarona - Volcanic: Discard 2 [R] Energy from this Pokémon. This attack does 80 damage to 1 of your opponent's Pokémon.
+Blastoise - Hydro Pump: If this Pokémon has at least 2 extra [W] Energy attached, this attack does 60 more damage.
+Eevee - Unknown: During your opponent's next turn, attacks used by the Defending Pokémon do −20 damage. 
+Cinccino - Do the Wave: This attack does 30 damage for each of your Benched Pokémon.
+Charmander - Ember: Discard a [R] Energy from this Pokémon.
+Piplup - Unknown: Heal 20 damage from this Pokémon. 
+Electivire - Exciting Voltage: If this Pokémon has at least 2 extra [L] Energy attached, this attack does 80 more damage.
+Misdreavus - Confuse: Your opponent's Active Pokémon is now Confused.
+Skarmory - etal Arms: If this Pokémon has a Pokémon Tool attached, this attack does 30 more damage.     
+Cherrim - Leech Seed: Heal 20 damage from this Pokémon.
+Raichu - Spark: This attack also does 20 damage to 1 of your opponent's Benched Pokémon.
+Nosepass - Iron: Flip a coin. If heads, during your opponent's next turn, prevent all damage done to this Pokémon by attacks.
+Manaphy - Oceanic: Choose 2 of your Benched Pokémon. For each of those Pokémon, take a [W] Energy from your Energy Zone and attach it to that Pokémon.      
+Snorlax - Collapse: This Pokémon is now Asleep.     
+Mewtwo ex - Psydrive: Discard 2 [P] Energy from this Pokémon.
+Cyclizar - Overacceleration: During your next turn, this Pokémon's Overacceleration attack does +20 damage.
+Sprigatito - Cry for: Put 1 random [G] Pokémon from your deck into your hand.
+Floatzel - Attack the ound: If your opponent's Active Pokémon has damage on it, this attack does 60 more damage.
+Machamp - Power Press: If this Pokémon has at least 2 extra [F] Energy attached, this attack does 50 more damage.
+Ekans - Poison: Your opponent's Active Pokémon is now Poisoned.
+Pachirisu - Plasma: Take a [L] Energy from your Energy Zone and attach it to 1 of your Benched [L] Pokémon.
+Exeggcute - Growth: Take a [G] Energy from your Energy Zone and attach it to this Pokémon.
+Exeggutor - Psychic: This attack does 20 more damage for each Energy attached to your opponent's Active Pokémon.
+Celebi ex - Powerful Bloom: Flip a coin for each Energy attached to this Pokémon. This attack does 50 damage for each heads.
+Shiinotic - Flickering Spores: Your opponent's Active Pokémon is now Asleep.
+Dhelmise - Energy Whip: If this Pokémon has at least 3 extra [G] Energy attached, this attack does 70 more damage.
+Ponyta - Stomp: Flip a coin. If heads, this attack does 30 more damage.
+Rapidash - Rising Lunge: Flip a coin. If heads, this attack does 60 more damage.
+Magmar - Fire Blast: Discard 2 [R] Energy from this Pokémon.
+Volcarona - Volcanic: Discard 2 [R] Energy from this Pokémon. This attack does 80 damage to 1 of your opponent's Pokémon.
+Salandit - Venoshock: If your opponent's Active Pokémon is Poisoned, this attack does 40 more damage.   
+Salazzle - Poison Claws: Your opponent's Active Pokémon is now Poisoned.
+Magikarp - Leap: Switch this Pokémon with 1 of your Benched Pokémon.
+Gyarados ex - Rampaging Whirlpool: Discard a random Energy from among the Energy attached to all Pokémon (both yours and your opponent's).
+Lumineon - Aqua: This attack does 50 damage to 1 of your opponent's Benched Pokémon.
+Drednaw - Crunch: Flip a coin. If heads, discard a random Energy from your opponent's Active Pokémon.   
+Cramorant - Dive: Flip a coin. If heads, during your opponent's next turn, prevent all damage from—and effects of—attacks done to this Pokémon.
+Pikachu - Circle Circuit: This attack does 10 damage for each of your Benched [L] Pokémon.
+Raichu - Gigashock: This attack also does 20 damage to each of your opponent's Benched Pokémon.
+Electabuzz - Thunder: This attack does 40 damage to 1 of your opponent's Pokémon.
+Galvantula - Electroweb: During your opponent's next turn, the Defending Pokémon can't retreat.
+Dedenne - Thunder Shock: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.        
+Mew - sy Report: Your opponent reveals their hand.  
+Mew ex - Genome: Choose 1 of your opponent's Active Pokémon's attacks and use it as this attack.        
+Sigilyph - Spike Draw: Draw a card.
+Beheeyem - Mind Jack: This attack does 20 more damage for each of your opponent's Benched Pokémon.      
+Flabébé - Hypnotic: Your opponent's Active Pokémon is now Asleep.
+Floette - Leaf Drain: Heal 10 damage from this Pokémon.
+Florges - Bloomshine: Heal 20 damage from each of your Pokémon.
+Mankey - ocus ist: Flip a coin. If tails, this attack does nothing.
+Golem - Guard Press: During your opponent's next turn, this Pokémon takes −30 damage from attacks.      
+Marshadow - Revenge: If any of your Pokémon were Knocked Out by damage from an attack during your opponent's last turn, this attack does 60 more damage.    
+Koffing - Unknown: Put 1 random Koffing from your deck onto your Bench.
+Weezing - Smokescreen: During your opponent's next turn, if the Defending Pokémon tries to use an attack, your opponent flips a coin. If tails, that attack doesn't happen.
+Whirlipede - Poison Sting: Your opponent's Active Pokémon is now Poisoned.
+Scolipede - Venoshock: If your opponent's Active Pokémon is Poisoned, this attack does 50 more damage.  
+Pidgeot ex - Scattering Cyclone: This attack does 20 more damage for each of your opponent's Benched Pokémon.
+Tauros - Fighting Tackle: If your opponent's Active Pokémon is a Pokémon ex, this attack does 80  more damage.
+Eevee - ontinuous Steps: Flip a coin until you get tails. This attack does 20 damage for each heads.    
+Chatot - Unknown: Shuffle your hand into your deck. Draw a card for each card in your opponent's hand.  
+Exeggutor - Psychic: This attack does 20 more damage for each Energy attached to your opponent's Active Pokémon.
+Salandit - Venoshock: If your opponent's Active Pokémon is Poisoned, this attack does 40 more damage.   
+Dedenne - Thunder Shock: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.        
+Marshadow - Revenge: If any of your Pokémon were Knocked Out by damage from an attack during your opponent's last turn, this attack does 60 more damage.    
+Celebi ex - Powerful Bloom: Flip a coin for each Energy attached to this Pokémon. This attack does 50 damage for each heads.
+Gyarados ex - Rampaging Whirlpool: Discard a random Energy from among the Energy attached to all Pokémon (both yours and your opponent's).
+Mew ex - Genome: Choose 1 of your opponent's Active Pokémon's attacks and use it as this attack.        
+Pidgeot ex - Scattering Cyclone: This attack does 20 more damage for each of your opponent's Benched Pokémon.
+Mew ex - Genome: Choose 1 of your opponent's Active Pokémon's attacks and use it as this attack.        
+Celebi ex - Powerful Bloom: Flip a coin for each Energy attached to this Pokémon. This attack does 50 damage for each heads.
+Mew ex - Genome: Choose 1 of your opponent's Active Pokémon's attacks and use it as this attack.        
+Oddish - Blot: Heal 10 damage from this Pokémon.    
+Tangrowth - Mega Drain: Heal 30 damage from this Pokémon.
+Yanmega ex - Air Slash: Discard a random Energy from this Pokémon.
+Roserade - Poisonous Whip: Your opponent's Active Pokémon is now Poisoned.
+Torterra - Frenzy Plant: During your next turn, this Pokémon can't use Frenzy Plant.
+Kricketune - Entrancing Melody: Your opponent's Active Pokémon is now Confused.
+Wormadam - Leaf Cutter: Flip a coin. If heads, this attack does 30 more damage.
+Combee - all for: Put 1 random Basic Pokémon from your deck onto your Bench.
+Carnivine - Flog: Flip a coin. If heads, this attack does 50 more damage.
+Leafeon - Leafy Cyclone: During your next turn, this Pokémon can't attack.
+Mow Rotom - Energy Cutoff: Flip a coin. If heads, discard a random Energy from your opponent's Active Pokémon.
+Magmar - Unknown: Take a [R] Energy from your Energy Zone and attach it to this Pokémon.
+Magmortar - Bursting Inferno: Your opponent's Active Pokémon is now Burned.
+Magcargo - Searing Flame: Your opponent's Active Pokémon is now Burned.
+Infernape ex - Flare Blitz: Discard all [R] Energy from this Pokémon.
+Heat Rotom - Heat Breath: Flip a coin. If heads, this attack does 30 more damage.
+Piplup - Unknown: Heal 20 damage from this Pokémon. 
+Empoleon - Aqua Jet: This attack also does 30 damage to 1 of your opponent's Benched Pokémon.
+Floatzel - Jet Screw: Flip a coin. If heads, this attack does 30 more damage.
+Gastrodon - Muddy Water: This attack also does 20 damage to 1 of your opponent's Benched Pokémon.       
+Finneon - Elegant Swim: Flip a coin. If heads, during your opponent's next turn, prevent all damage from—and effects of—attacks done to this Pokémon.       
+Snover - Ice Shard: If your opponent's Active Pokémon is a [F] Pokémon, this attack does 30 more damage.
+Glaceon - Ice Beam: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+Frost Rotom - Blizzard: This attack also does 10 damage to each of your opponent's Benched Pokémon.     
+Palkia ex - Dimensional Storm: Discard 3 [W] Energy from this Pokémon. This attack also does 20 damage to each of your opponent's Benched Pokémon.
+Manaphy - Oceanic: Choose 2 of your Benched Pokémon. For each of those Pokémon, take a [W] Energy from your Energy Zone and attach it to that Pokémon.      
+Magnezone - Thunder Blast: Discard a [L] Energy from this Pokémon.
+Voltorb - Big Explosion: This Pokémon also does 10 damage to itself.
+Electabuzz - Unknown: Take a [L] Energy from your Energy Zone and attach it to this Pokémon.
+Electivire - Exciting Voltage: If this Pokémon has at least 2 extra [L] Energy attached, this attack does 80 more damage.
+Shinx - Unknown: Flip a coin. If heads, during your opponent's next turn, prevent all damage from—and effects of—attacks done to this Pokémon.
+Luxray - Volt: Discard all [L] Energy from this Pokémon. This attack does 120 damage to 1 of your opponent's Pokémon.
+Pachirisu ex - Sparking Gadget: If this Pokémon has a Pokémon Tool attached, this attack does 40 more damage.
+Rotom - Assault Laser: If your opponent's Active Pokémon has a Pokémon Tool attached, this attack does 30 more damage.
+Togekiss - Overdrive Smash: During your next turn, this Pokémon's Overdrive Smash attack does +60 damage.
+Mismagius ex - Magical Delusion: Your opponent's Active Pokémon is now Confused.
+Ralts - Unknown: Switch this Pokémon with 1 of your Benched Pokémon.
+Drifloon - Expand: During your opponent's next turn, this Pokémon takes −20 damage from attacks.        
+Uxie - Mind Boost: Take a [P] Energy from your Energy Zone and attach it to Mesprit or Azelf.
+Mesprit - Supreme Blast: You can use this attack only if you have Uxie and Azelf on your Bench. Discard all Energy from this Pokémon.
+Azelf - sychic: This attack does 20 damage to 1 of your opponent's Pokémon.
+Cresselia - Moonlight Gain: Heal 20 damage from this Pokémon.
+Rhyperior - Mountain Swing: Discard the top 3 cards of your deck.
+Gliscor - Acrobatics: Flip 2 coins. This attack does 20 more damage for each heads.
+Rampardos - Head Smash: If your opponent's Pokémon is Knocked Out by damage from this attack, this Pokémon also does 50 damage to itself.
+Gallade ex - Energized Blade: This attack does 20 more damage for each Energy attached to your opponent's Active Pokémon.
+Honchkrow - Skill: This attack does 50 damage to 1 of your opponent's Pokémon.
+Sneasel - ouble Scratch: Flip 2 coins. This attack does 20 damage for each heads.
+Weavile ex - Scratching Nails: If your opponent's Active Pokémon has damage on it, this attack does 40 more damage.
+Skuntank - Poison Gas: Your opponent's Active Pokémon is now Poisoned.
+Spiritomb - Swirling: This attack does 10 damage to each of your opponent's Pokémon.
+Drapion - Cross Poison: Flip 4 coins. This attack does 40 damage for each heads. If at least 2 of them are heads, your opponent's Active Pokémon is now Poisoned.
+Croagunk - Group Beatdown: Flip a coin for each Pokémon you have in play. This attack does 20 damage for each heads.
+Toxicroak - Group Beatdown: Flip a coin for each Pokémon you have in play. This attack does 40 damage for each heads.
+Darkrai - Dark Void: Your opponent's Active Pokémon is now Asleep.
+Skarmory - etal Arms: If this Pokémon has a Pokémon Tool attached, this attack does 30 more damage.     
+Wormadam - Iron Head: Flip a coin until you get tails. This attack does 30 more damage for each heads.  
+Bronzong - Guard Press: During your opponent's next turn, this Pokémon takes −20 damage from attacks.   
+Probopass - Triple Nose: Flip 3 coins. This attack does 50 more damage for each heads.
+Dialga ex - Metallic Turbo: Take 2 [M] Energy from your Energy Zone and attach it to 1 of your Benched Pokémon.
+Heatran - Steel Tackle: This Pokémon also does 20 damage to itself.
+Lickilicky ex - Licking Fury: Flip a coin until you get tails. This attack does 40 more damage for each heads.
+Eevee - Quick Attack: Flip a coin. If heads, this attack does 20 more damage.
+Porygon-Z - Buggy Beam: Change the type of the next Energy that will be generated for your opponent to 1 of the following at random: [G],[R],[W],[L],[P],[F],[D], or [M].
+Ambipom - Double Hit: Flip 2 coins. This attack does 40 damage for each heads.
+Starly - Pluck: Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon.     
+Staraptor - Clutch: During your opponent's next turn, the Defending Pokémon can't retreat.
+Bidoof - Super: Halve your opponent's Active Pokémon's remaining HP, rounded down.
+Lopunny - Jump Kick: This attack also does 20 damage to 1 of your opponent's Benched Pokémon.
+Glameow - Pose: Flip a coin. If tails, this attack does nothing.
+Purugly - Interrupt: Your opponent reveals their hand. Choose a card you find there and shuffle it into your opponent's deck.
+Chatot - Fury Attack: Flip 3 coins. This attack does 20 damage for each heads.
+Fan Rotom - Spin: Flip a coin. If heads, put your opponent's Active Pokémon into their hand.
+Regigigas - Raging Hammer: This attack does more damage equal to the damage this Pokémon has on it.     
+Tangrowth - Mega Drain: Heal 30 damage from this Pokémon.
+Combee - all for: Put 1 random Basic Pokémon from your deck onto your Bench.
+Carnivine - Flog: Flip a coin. If heads, this attack does 50 more damage.
+Gastrodon - Muddy Water: This attack also does 20 damage to 1 of your opponent's Benched Pokémon.       
+Manaphy - Oceanic: Choose 2 of your Benched Pokémon. For each of those Pokémon, take a [W] Energy from your Energy Zone and attach it to that Pokémon.      
+Shinx - Unknown: Flip a coin. If heads, during your opponent's next turn, prevent all damage from—and effects of—attacks done to this Pokémon.
+Rotom - Assault Laser: If your opponent's Active Pokémon has a Pokémon Tool attached, this attack does 30 more damage.
+Drifloon - Expand: During your opponent's next turn, this Pokémon takes −20 damage from attacks.        
+Mesprit - Supreme Blast: You can use this attack only if you have Uxie and Azelf on your Bench. Discard all Energy from this Pokémon.
+Cresselia - Moonlight Gain: Heal 20 damage from this Pokémon.
+Rhyperior - Mountain Swing: Discard the top 3 cards of your deck.
+Spiritomb - Swirling: This attack does 10 damage to each of your opponent's Pokémon.
+Croagunk - Group Beatdown: Flip a coin for each Pokémon you have in play. This attack does 20 damage for each heads.
+Heatran - Steel Tackle: This Pokémon also does 20 damage to itself.
+Staraptor - Clutch: During your opponent's next turn, the Defending Pokémon can't retreat.
+Bidoof - Super: Halve your opponent's Active Pokémon's remaining HP, rounded down.
+Glameow - Pose: Flip a coin. If tails, this attack does nothing.
+Regigigas - Raging Hammer: This attack does more damage equal to the damage this Pokémon has on it.     
+Yanmega ex - Air Slash: Discard a random Energy from this Pokémon.
+Infernape ex - Flare Blitz: Discard all [R] Energy from this Pokémon.
+Palkia ex - Dimensional Storm: Discard 3 [W] Energy from this Pokémon. This attack also does 20 damage to each of your opponent's Benched Pokémon.
+Pachirisu ex - Sparking Gadget: If this Pokémon has a Pokémon Tool attached, this attack does 40 more damage.
+Mismagius ex - Magical Delusion: Your opponent's Active Pokémon is now Confused.
+Gallade ex - Energized Blade: This attack does 20 more damage for each Energy attached to your opponent's Active Pokémon.
+Weavile ex - Scratching Nails: If your opponent's Active Pokémon has damage on it, this attack does 40 more damage.
+Dialga ex - Metallic Turbo: Take 2 [M] Energy from your Energy Zone and attach it to 1 of your Benched Pokémon.
+Lickilicky ex - Licking Fury: Flip a coin until you get tails. This attack does 40 more damage for each heads.
+Yanmega ex - Air Slash: Discard a random Energy from this Pokémon.
+Infernape ex - Flare Blitz: Discard all [R] Energy from this Pokémon.
+Pachirisu ex - Sparking Gadget: If this Pokémon has a Pokémon Tool attached, this attack does 40 more damage.
+Mismagius ex - Magical Delusion: Your opponent's Active Pokémon is now Confused.
+Gallade ex - Energized Blade: This attack does 20 more damage for each Energy attached to your opponent's Active Pokémon.
+Weavile ex - Scratching Nails: If your opponent's Active Pokémon has damage on it, this attack does 40 more damage.
+Lickilicky ex - Licking Fury: Flip a coin until you get tails. This attack does 40 more damage for each heads.
+Palkia ex - Dimensional Storm: Discard 3 [W] Energy from this Pokémon. This attack also does 20 damage to each of your opponent's Benched Pokémon.
+Dialga ex - Metallic Turbo: Take 2 [M] Energy from your Energy Zone and attach it to 1 of your Benched Pokémon.
+Palkia ex - Dimensional Storm: Discard 3 [W] Energy from this Pokémon. This attack also does 20 damage to each of your opponent's Benched Pokémon.
+Dialga ex - Metallic Turbo: Take 2 [M] Energy from your Energy Zone and attach it to 1 of your Benched Pokémon.
