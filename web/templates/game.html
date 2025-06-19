@@ -2,12 +2,207 @@
 <html>
 <head>
     <title>Pokémon TCG Pocket - Game</title>
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        .game-board {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .player-area {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .player-area.current-player {
+            box-shadow: 0 0 10px rgba(76, 175, 80, 0.5);
+            border: 2px solid #4CAF50;
+        }
+        .pokemon-info {
+            white-space: pre;
+            font-family: 'Courier New', monospace;
+            background-color: #1a1a1a;
+            color: #00ff00;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        .player-name {
+            font-size: 1.5em;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section-title {
+            font-weight: bold;
+            color: #666;
+            margin-bottom: 5px;
+        }
+        .nav-bar {
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: white;
+            border-radius: 5px;
+        }
+        .nav-bar a {
+            color: #333;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 3px;
+            background-color: #eee;
+        }
+        .nav-bar a:hover {
+            background-color: #ddd;
+        }
+        .turn-info {
+            margin-top: 20px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .setup-phase {
+            background-color: #fff3cd;
+            border: 1px solid #ffeeba;
+            color: #856404;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        .pokemon-choice {
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        .pokemon-choice:hover {
+            transform: translateY(-2px);
+        }
+        .choice-link {
+            text-decoration: none;
+            color: inherit;
+        }
+        .setup-instructions {
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-    <h1>Game Started!</h1>
-    <pre>
-        {{ board_state }}
-    </pre>
-    <a href="{{ url_for('index') }}">Back to Home</a>
+    <div class="nav-bar">
+        <a href="{{ url_for('index') }}">Back to Home</a>
+    </div>    {% if setup_phase and needs_setup %}
+    <div class="setup-phase">
+        {% for player_num, player in [(1, player1), (2, player2)] %}            {% if not player.active %}
+            <div class="setup-instructions">{{ player.name }}, choose your Active Pokémon:</div>
+            {% for card in player.hand %}
+                {% if card.__class__.__name__ == 'PokemonCard' and not card.can_evolve_from %}
+                <a href="{{ url_for('choose_active', player_num=player_num, card_idx=loop.index0) }}" class="choice-link">
+                    <div class="pokemon-choice pokemon-info">
+                        {{ card.get_full_info() }}
+                    </div>
+                </a>
+                {% endif %}
+            {% endfor %}
+            {% endif %}
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    <div class="game-board">
+        {% if player2 %}
+        <div class="player-area {% if current_player == player2 %}current-player{% endif %}">
+            <div class="player-name">{{ player2.name }}</div>
+            
+            <div class="section">
+                <div class="section-title">Active Pokémon:</div>
+                {% if player2.active %}
+                <div class="pokemon-info">{{ player2.active.get_full_info() }}</div>
+                {% else %}
+                <div>No active Pokémon</div>
+                {% endif %}
+            </div>
+
+            <div class="section">
+                <div class="section-title">Bench:</div>
+                {% if player2.bench %}
+                {% for pokemon in player2.bench %}
+                <div class="pokemon-info">{{ pokemon.get_full_info() }}</div>
+                {% endfor %}
+                {% else %}
+                <div>Empty bench</div>
+                {% endif %}
+            </div>
+
+            <div class="section">
+                <div class="section-title">Game Stats:</div>
+                <div>Cards in deck: {{ player2.deck|length }}</div>
+                <div>Cards in hand: {{ player2.hand|length }}</div>
+                <div>Points: {{ player2.points }}</div>
+            </div>
+        </div>
+        {% endif %}
+
+        {% if player1 %}
+        <div class="player-area {% if current_player == player1 %}current-player{% endif %}">
+            <div class="player-name">{{ player1.name }}</div>
+            
+            <div class="section">
+                <div class="section-title">Active Pokémon:</div>
+                {% if player1.active %}
+                <div class="pokemon-info">{{ player1.active.get_full_info() }}</div>
+                {% else %}
+                <div>No active Pokémon</div>
+                {% endif %}
+            </div>
+
+            <div class="section">
+                <div class="section-title">Bench:</div>
+                {% if player1.bench %}
+                {% for pokemon in player1.bench %}
+                <div class="pokemon-info">{{ pokemon.get_full_info() }}</div>
+                {% endfor %}
+                {% else %}
+                <div>Empty bench</div>
+                {% endif %}
+            </div>
+
+            <div class="section">
+                <div class="section-title">Game Stats:</div>
+                <div>Cards in deck: {{ player1.deck|length }}</div>
+                <div>Cards in hand: {{ player1.hand|length }}</div>
+                <div>Points: {{ player1.points }}</div>
+            </div>
+        </div>
+        {% endif %}
+
+        <div class="turn-info">
+            <div class="section-title">Game Info:</div>
+            <div>Turn: {{ current_turn }}</div>
+            <div>Current Player: {{ current_player.name }}</div>
+        </div>
+
+        {% if setup_phase %}
+        <div class="setup-phase">
+            <div class="setup-instructions">Select your active Pokémon:</div>
+            <div class="pokemon-choices">
+                {% for pokemon in current_player.pokemon_set %}
+                <div class="pokemon-choice">
+                    <a href="{{ url_for('set_active_pokemon', pokemon_id=pokemon.id) }}" class="choice-link">
+                        <div class="pokemon-info">{{ pokemon.get_full_info() }}</div>
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+    </div>
 </body>
 </html>

@@ -2,13 +2,71 @@
 <html>
 <head>
     <title>Pokémon TCG Pocket</title>
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #666;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
 </head>
 <body>
-    <h1>Pokémon TCG Pocket</h1>
-    <form method="post">
-        <label>Player 1 Name: <input type="text" name="player1" required></label><br>
-        <label>Player 2 Name: <input type="text" name="player2" required></label><br>
-        <button type="submit">Start Game</button>
-    </form>
+    <div class="container">
+        <h1>Pokémon TCG Pocket</h1>
+        <form method="post">
+            <div>
+                <label for="player1">Player 1 Name:</label>
+                <input type="text" id="player1" name="player1" required>
+            </div>
+            <div>
+                <label for="player2">Player 2 Name:</label>
+                <input type="text" id="player2" name="player2" required>
+            </div>
+            <button type="submit">Start Game</button>
+        </form>
+    </div>
 </body>
 </html>

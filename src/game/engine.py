@@ -18,6 +18,8 @@ class GameEngine:
         """Initialize the game engine."""
         self.players = [player1, player2]
         self.turn = 0
+        self.setup_phase = True
+        self.setup_complete = [False, False]  # Track if each player has chosen their active Pokemon
         # Decide who goes first with a coin flip
         self.first_player = random.choice([0, 1])
 
@@ -41,16 +43,15 @@ class GameEngine:
     def generate_deck(self) -> List[Card]:
         """Generate a legal 20-card deck."""
         deck: List[Card] = []
-        
-        # Basic Pokemon
-        pikachu = PokemonCard("Pikachu", 60, PokemonType.ELECTRIC)
+          # Basic Pokemon
+        pikachu = PokemonCard("Pikachu", "BAS-025", 60, PokemonType.ELECTRIC)
         pikachu.attacks = [
             Attack("Thunder Shock", 20, 1),
             Attack("Thunderbolt", 50, 2)
         ]
         pikachu.weakness = PokemonType.FIGHTING
         
-        raichu_ex = PokemonCard("Raichu-EX", 180, PokemonType.ELECTRIC, is_ex=True)
+        raichu_ex = PokemonCard("Raichu-EX", "BAS-026", 180, PokemonType.ELECTRIC, is_ex=True)
         raichu_ex.attacks = [
             Attack("Thunder Wave", 30, 1, ["Electric"],  # Add cost_types explicitly
                   lambda self, opp: (setattr(opp.active, 'status', StatusCondition.PARALYSIS), None)[-1]),
@@ -350,3 +351,56 @@ class GameEngine:
             if p.points >= 3:
                 return p.name
         return None
+
+    @property
+    def player1(self) -> Player:
+        """Get player 1."""
+        return self.players[0]
+        
+    @property
+    def player2(self) -> Player:
+        """Get player 2."""
+        return self.players[1]
+        
+    @property
+    def current_turn(self) -> int:
+        """Get the current turn number."""
+        return self.turn
+        
+    @property
+    def current_player(self) -> Player:
+        """Get the current player."""
+        return self.players[(self.turn + self.first_player) % 2]
+
+    def get_valid_active_choices(self, player: Player) -> List[PokemonCard]:
+        """Get list of valid Pokemon that can be played as active."""
+        return [card for card in player.hand 
+                if isinstance(card, PokemonCard) and not card.can_evolve_from]
+
+    def choose_active_pokemon(self, player: Player, card_index: int) -> bool:
+        """Choose a Pokemon from hand as active. Returns True if successful."""
+        if not self.setup_phase:
+            return False
+            
+        valid_choices = self.get_valid_active_choices(player)
+        if not (0 <= card_index < len(valid_choices)):
+            return False
+            
+        chosen_card = valid_choices[card_index]
+        player.hand.remove(chosen_card)
+        player.active = chosen_card
+        
+        # Mark this player's setup as complete
+        player_idx = self.players.index(player)
+        self.setup_complete[player_idx] = True
+        
+        # Check if setup phase is complete
+        if all(self.setup_complete):
+            self.setup_phase = False
+            
+        return True
+
+    @property
+    def needs_setup(self) -> bool:
+        """Check if any player still needs to choose their active Pokemon."""
+        return any(not complete for complete in self.setup_complete)

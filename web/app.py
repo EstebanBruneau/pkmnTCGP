@@ -12,6 +12,7 @@ from pathlib import Path
 sys.path.append(str(Path(__file__).parent.parent))
 from src.game.engine import GameEngine
 from src.game.player import Player
+from src.models.cards import PokemonCard
 
 app = Flask(__name__)
 app.secret_key = "supersecretkey"  # For session management
@@ -35,15 +36,51 @@ def game_view():
     global game
     if not session.get("started") or game is None:
         return redirect(url_for("index"))
-    # For now, just show the board state as text
-    # You may want to add a method to GameEngine to return board state as a string
-    import io
-    import contextlib
-    buf = io.StringIO()
-    with contextlib.redirect_stdout(buf):
-        game.display_full_board()
-    board_state = buf.getvalue()
-    return render_template("game.html", board_state=board_state)
+        
+    return render_template(
+        "game.html",
+        game=game,
+        player1=game.player1,
+        player2=game.player2,
+        current_turn=game.current_turn,
+        current_player=game.current_player,
+        setup_phase=game.setup_phase,
+        needs_setup=game.needs_setup
+    )
+
+@app.route("/choose_active/<int:player_num>/<int:card_idx>")
+def choose_active(player_num, card_idx):
+    global game
+    if not session.get("started") or game is None:
+        return redirect(url_for("index"))
+        
+    player = game.players[player_num - 1]  # Convert to 0-based index
+    
+    # Only allow choice during setup phase
+    if not game.setup_phase or player.active is not None:
+        return "Cannot choose active Pokémon at this time", 400
+        
+    # Validate card choice
+    if not (0 <= card_idx < len(player.hand)):
+        return "Invalid card index", 400
+        
+    chosen_card = player.hand[card_idx]
+    if not (isinstance(chosen_card, PokemonCard) and not chosen_card.can_evolve_from):
+        return "Invalid card choice - must be a basic Pokémon", 400
+        
+    # Move card from hand to active position
+    player.hand.remove(chosen_card)
+    player.active = chosen_card
+    
+    # Mark this player's setup as complete
+    player_idx = game.players.index(player)
+    game.setup_complete[player_idx] = True
+    
+    # Check if setup phase is complete
+    if all(game.setup_complete):
+        game.setup_phase = False
+        
+    return redirect(url_for("game_view"))
 
 if __name__ == "__main__":
     app.run(debug=True)

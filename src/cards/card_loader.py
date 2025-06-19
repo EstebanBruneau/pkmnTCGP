@@ -164,32 +164,43 @@ def load_cards_from_json(json_path: str) -> List[Card]:
     for entry in data:
         card_type = entry.get('card_type', '')
         name = entry.get('name', 'Unknown')
+        card_id = entry.get('id', 'UNKNOWN_ID')  # Using 'id' instead of 'card_id'
         hp = safe_int(entry.get('hp', '0'), 0)
         ex = entry.get('ex', 'No') == 'Yes'
         # Only handle Pokemon for now
         if 'Pokémon' in card_type:
-            ptype_str = 'Colorless'
-            for t in POKEMON_TYPE_MAP:
-                if t in card_type:
-                    ptype_str = t
-                    break
-            ptype = POKEMON_TYPE_MAP.get(ptype_str, PokemonType.NORMAL)
-            poke = PokemonCard(name, hp, ptype, is_ex=ex)
-            poke.weakness = POKEMON_TYPE_MAP.get(entry.get('weakness', 'Colorless'), PokemonType.NORMAL)
-            poke.attacks = [parse_attack(a) for a in entry.get('attacks', [])]
-            # Evolution
-            evo_type = entry.get('evolution_type', '')
-            if evo_type == 'Stage 1':
-                poke.can_evolve_from = card_type.split('Evolves from ')[-1] if 'Evolves from' in card_type else None
-            elif evo_type == 'Stage 2':
-                poke.can_evolve_from = card_type.split('Evolves from ')[-1] if 'Evolves from' in card_type else None
-            # Retreat cost
-            try:
-                poke.retreat_cost = int(entry.get('retreat', '1'))
-            except Exception:
-                poke.retreat_cost = 1
-            # Ensure each card is a unique object (deepcopy)
-            import copy
-            cards.append(copy.deepcopy(poke))
+            type_str = entry.get('type', 'Colorless')
+            pokemon_type = POKEMON_TYPE_MAP.get(type_str, PokemonType.NORMAL)
+            card = PokemonCard(name=name, card_id=card_id, hp=hp, pokemon_type=pokemon_type, is_ex=ex)
+            
+            # Set evolution data
+            evolves_from = entry.get('evolves_from', None)
+            if evolves_from:
+                card.can_evolve_from = evolves_from
+            
+            # Set weakness
+            weakness_str = entry.get('weakness', None)
+            if weakness_str:
+                card.weakness = POKEMON_TYPE_MAP.get(weakness_str, None)
+                
+            # Set retreat cost
+            card.retreat_cost = safe_int(entry.get('retreat_cost', '1'), 1)
+            
+            # Set ability information
+            ability_data = entry.get('ability', None)
+            if ability_data:
+                from .abilities import create_ability
+                ability = create_ability(ability_data.get('name', ''), ability_data.get('effect', ''))
+                if ability:
+                    card.ability = ability
+            
+            # Parse attacks
+            attacks_json = entry.get('attacks', [])
+            for attack in attacks_json:
+                attack_obj = parse_attack(attack)
+                if attack_obj:
+                    card.attacks.append(attack_obj)
+                    
+            cards.append(card)
         # TODO: Add Supporter, Item, Tool parsing
     return cards

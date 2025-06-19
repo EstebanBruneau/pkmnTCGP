@@ -9,29 +9,34 @@ def choose_starting_pokemon(player):
     print(f"\n{player.name}, choose your starting Active Pokémon:")
     basics = [card for card in player.hand if hasattr(card, 'can_evolve_from') and not card.can_evolve_from]
     for idx, card in enumerate(basics):
-        print(f"  [{idx}] {card.name} (HP: {card.hp})")
+        print(f"\nOption [{idx}]:")
+        print(card.get_full_info())
     while True:
-        choice = input(f"Select Active Pokémon (0-{len(basics)-1}): ")
+        choice = input(f"\nSelect Active Pokémon (0-{len(basics)-1}): ")
         try:
             idx = int(choice)
             if 0 <= idx < len(basics):
                 chosen = basics[idx]
                 player.active = chosen
                 player.hand.remove(chosen)
-                print(f"{player.name} chose {chosen.name} as Active Pokémon!")
+                print(f"\n{player.name} chose {chosen.name} as Active Pokémon!")
+                print("\nActive Pokémon details:")
+                print(chosen.get_full_info())
                 break
         except Exception:
             pass
         print("Invalid choice. Try again.")
-    # Optionally put up to 3 on bench
+    
     print(f"\n{player.name}, choose up to 3 Pokémon for your Bench (press Enter to finish):")
     while len(player.bench) < 3:
         basics = [card for card in player.hand if hasattr(card, 'can_evolve_from') and not card.can_evolve_from]
         if not basics:
             break
+        print("\nAvailable Pokémon for bench:")
         for idx, card in enumerate(basics):
-            print(f"  [{idx}] {card.name} (HP: {card.hp})")
-        choices = input(f"Select Pokémon to add to Bench (comma-separated indices, Enter to finish): ")
+            print(f"\nOption [{idx}]:")
+            print(card.get_full_info())
+        choices = input(f"\nSelect Pokémon to add to Bench (comma-separated indices, Enter to finish): ")
         if choices == '':
             break
         try:
@@ -41,7 +46,8 @@ def choose_starting_pokemon(player):
                     chosen = basics[idx]
                     player.bench.append(chosen)
                     player.hand.remove(chosen)
-                    print(f"Added {chosen.name} to Bench.")
+                    print(f"\nAdded to Bench:")
+                    print(chosen.get_full_info())
         except Exception:
             print("Invalid choice. Try again.")
 
