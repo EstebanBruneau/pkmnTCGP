@@ -4,12 +4,12 @@ Game engine for Pokemon TCG Pocket.
 import random
 import copy
 from typing import List, Optional, Sequence
-from ..cards.card_loader import load_cards_from_json
+from src.cards.card_loader import load_cards_from_json
 import os
 
-from ..models.cards import Card, PokemonCard, Attack, SupporterCard, ItemCard, ToolCard
-from ..models.enums import PokemonType, StatusCondition
-from .player import Player
+from src.models.cards import Card, PokemonCard, Attack, SupporterCard, ItemCard, ToolCard
+from src.models.enums import PokemonType, StatusCondition
+from src.game.player import Player
 
 class GameEngine:
     """Main game engine that handles game flow and rules."""
